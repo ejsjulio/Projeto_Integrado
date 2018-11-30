@@ -1,0 +1,74 @@
+body, h1 {
+	margin:0px;
+}
+
+#sec1{
+	position:fixed;
+	width:100%;
+	height:135%;
+	background:url('../images/rosa0.png');
+	background-repeat: no-repeat;
+	background-size: auto 900px;
+	background-position: right;
+    
+}
+
+
+#sec1 .div-tit{
+	position:absolute;
+	top:2.7%;
+	left:90%;
+	transform: translate(-50%, -50%);
+
+}
+
+#sec1 .div-tit h1{
+	font-size: 4em;
+	text-transform: uppercase;
+	color: #100f53;
+	text-align: center;
+}
+
+#sec1 .div-tit a{
+	background: #fff;
+	color: #088A85;
+	margin: 0 auto;
+	display: table;
+	padding: 4px 30px;
+	font-size: 1.4em;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-weight: 600;
+}
+
+#sec1 .div-tit a:hover{
+	background: #088A85;
+	color: #fff;
+}
+
+#nav{height:=50px; width:100%;background: #088A85;padding:4px;}
+    #sup_esquedo{float:right; width:15px; }
+        #login, #senha
+    {float:left;
+	text-transform: uppercase;
+	text-align: center;;
+    background: #fff;
+	margin: 0 auto;
+	display: table;
+	padding: 10px 40px;
+	font-size: 2em;
+	border-radius: 25px;
+}
+
+#cadastro{
+    background-color:rgba(0,0,0,0.5);
+    margin: 60px color rgba(0,0,0,0.5);
+    color: aliceblue;
+    }
+
+#form{
+	width: 50em;
+	line-height:1.3;
+    padding: 40px;
+	}
